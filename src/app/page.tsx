@@ -60,7 +60,7 @@ export default function Home() {
             <img
               src={preview.image.url}
               alt="preview"
-              className="w-full h-80 object-cover"
+              className="w-full max-h-[80vh] object-contain bg-black"
             />
           )}
 
